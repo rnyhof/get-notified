@@ -1,5 +1,5 @@
 Name:           etms-elkem1sbx
-Version:        13.10.1
+Version:        13.10.2
 Release:        1%{?dist}
 Summary:        eTMS elkem1sbx webapp & daemon
 License:        GPL
