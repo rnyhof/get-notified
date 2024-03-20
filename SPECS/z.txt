@@ -1,0 +1,237 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 04:16 ?        00:00:02 /usr/lib/systemd/systemd --switched-root --system --deserialize=36
+root           2       0  0 04:16 ?        00:00:00 [kthreadd]
+root           3       2  0 04:16 ?        00:00:00 [pool_workqueue_release]
+root           4       2  0 04:16 ?        00:00:00 [kworker/R-rcu_g]
+root           5       2  0 04:16 ?        00:00:00 [kworker/R-rcu_p]
+root           6       2  0 04:16 ?        00:00:00 [kworker/R-slub_]
+root           7       2  0 04:16 ?        00:00:00 [kworker/R-netns]
+root          11       2  0 04:16 ?        00:00:00 [kworker/u4:0-events_unbound]
+root          12       2  0 04:16 ?        00:00:00 [kworker/u4:1-netns]
+root          13       2  0 04:16 ?        00:00:00 [kworker/R-mm_pe]
+root          14       2  0 04:16 ?        00:00:00 [rcu_tasks_kthread]
+root          15       2  0 04:16 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          16       2  0 04:16 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          17       2  0 04:16 ?        00:00:08 [ksoftirqd/0]
+root          18       2  0 04:16 ?        00:00:19 [rcu_preempt]
+root          19       2  0 04:16 ?        00:00:00 [migration/0]
+root          20       2  0 04:16 ?        00:00:00 [idle_inject/0]
+root          21       2  0 04:16 ?        00:00:00 [cpuhp/0]
+root          22       2  0 04:16 ?        00:00:00 [cpuhp/1]
+root          23       2  0 04:16 ?        00:00:00 [idle_inject/1]
+root          24       2  0 04:16 ?        00:00:01 [migration/1]
+root          25       2  0 04:16 ?        00:00:11 [ksoftirqd/1]
+root          30       2  0 04:16 ?        00:00:00 [kdevtmpfs]
+root          31       2  0 04:16 ?        00:00:00 [kworker/R-inet_]
+root          33       2  0 04:16 ?        00:00:00 [kauditd]
+root          35       2  0 04:16 ?        00:00:00 [oom_reaper]
+root          37       2  0 04:16 ?        00:00:00 [kworker/R-write]
+root          38       2  0 04:16 ?        00:00:02 [kcompactd0]
+root          39       2  0 04:16 ?        00:00:00 [ksmd]
+root          40       2  0 04:16 ?        00:00:00 [khugepaged]
+root          41       2  0 04:16 ?        00:00:00 [kworker/R-crypt]
+root          42       2  0 04:16 ?        00:00:00 [kworker/R-kinte]
+root          43       2  0 04:16 ?        00:00:00 [kworker/R-kbloc]
+root          44       2  0 04:16 ?        00:00:00 [kworker/R-blkcg]
+root          45       2  0 04:16 ?        00:00:00 [kworker/R-tpm_d]
+root          46       2  0 04:16 ?        00:00:00 [kworker/R-ata_s]
+root          47       2  0 04:16 ?        00:00:00 [kworker/R-md]
+root          48       2  0 04:16 ?        00:00:00 [kworker/R-md_bi]
+root          49       2  0 04:16 ?        00:00:00 [kworker/R-edac-]
+root          50       2  0 04:16 ?        00:00:00 [kworker/R-devfr]
+root          51       2  0 04:16 ?        00:00:00 [watchdogd]
+root          53       2  0 04:16 ?        00:00:00 [kswapd0]
+root          62       2  0 04:16 ?        00:00:00 [kworker/R-kthro]
+root          68       2  0 04:16 ?        00:00:00 [kworker/R-acpi_]
+root          69       2  0 04:16 ?        00:00:00 [scsi_eh_0]
+root          70       2  0 04:16 ?        00:00:00 [kworker/R-scsi_]
+root          71       2  0 04:16 ?        00:00:00 [scsi_eh_1]
+root          72       2  0 04:16 ?        00:00:00 [kworker/R-scsi_]
+root          73       2  0 04:16 ?        00:00:00 [scsi_eh_2]
+root          74       2  0 04:16 ?        00:00:00 [kworker/R-scsi_]
+root          77       2  0 04:16 ?        00:00:00 [kworker/R-dm_bu]
+root          78       2  0 04:16 ?        00:00:00 [kworker/R-mld]
+root          79       2  0 04:16 ?        00:00:00 [kworker/R-ipv6_]
+root          86       2  0 04:16 ?        00:00:00 [kworker/R-kstrp]
+root          92       2  0 04:16 ?        00:00:00 [kworker/u7:0]
+root          93       2  0 04:16 ?        00:00:00 [kworker/u8:0]
+root          94       2  0 04:16 ?        00:00:00 [kworker/u9:0]
+root         412       2  0 04:16 ?        00:00:01 [irq/18-vmwgfx]
+root         416       2  0 04:16 ?        00:00:00 [kworker/R-ttm]
+root         448       2  0 04:16 ?        00:00:00 [kworker/R-xfsal]
+root         449       2  0 04:16 ?        00:00:00 [kworker/R-xfs_m]
+root         450       2  0 04:16 ?        00:00:00 [kworker/R-xfs-b]
+root         451       2  0 04:16 ?        00:00:00 [kworker/R-xfs-c]
+root         452       2  0 04:16 ?        00:00:00 [kworker/R-xfs-r]
+root         453       2  0 04:16 ?        00:00:00 [kworker/R-xfs-b]
+root         454       2  0 04:16 ?        00:00:00 [kworker/R-xfs-i]
+root         455       2  0 04:16 ?        00:00:00 [kworker/R-xfs-l]
+root         456       2  0 04:16 ?        00:00:00 [kworker/R-xfs-c]
+root         457       2  0 04:16 ?        00:00:23 [xfsaild/sda2]
+root         543       1  0 04:16 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root         580       1  0 04:16 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root         584       2  0 04:16 ?        00:00:00 [psimon]
+root         631       2  0 04:16 ?        00:00:00 [kworker/R-xfs-b]
+root         632       2  0 04:16 ?        00:00:00 [kworker/R-xfs-c]
+root         633       2  0 04:16 ?        00:00:00 [kworker/R-xfs-r]
+root         634       2  0 04:16 ?        00:00:00 [kworker/R-xfs-b]
+root         635       2  0 04:16 ?        00:00:00 [kworker/R-xfs-i]
+root         636       2  0 04:16 ?        00:00:00 [kworker/R-xfs-l]
+root         637       2  0 04:16 ?        00:00:00 [kworker/R-xfs-c]
+root         638       2  0 04:16 ?        00:00:00 [xfsaild/sda3]
+root         701       1  0 04:16 ?        00:00:00 /sbin/auditd
+root         703     701  0 04:16 ?        00:00:00 /usr/sbin/sedispatch
+systemd+     705       1  0 04:16 ?        00:00:29 /usr/lib/systemd/systemd-oomd
+root         706       2  0 04:16 ?        00:00:00 [kworker/R-rpcio]
+root         707       2  0 04:16 ?        00:00:00 [kworker/R-xprti]
+systemd+     710       1  0 04:16 ?        00:00:04 /usr/lib/systemd/systemd-resolved
+root         714       1  0 04:16 ?        00:00:00 /usr/lib/systemd/systemd-userdbd
+root         724       2  0 04:16 ?        00:00:00 [psimon]
+dbus         737       1  0 04:16 ?        00:00:00 /usr/bin/dbus-broker-launch --scope system --audit
+dbus         738     737  0 04:16 ?        00:00:07 dbus-broker --log 4 --controller 9 --machine-id 7701c5a0df0d4049bf772bb234357ba3 --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+avahi        739       1  0 04:16 ?        00:00:00 avahi-daemon: running [rnyhof.local]
+root         741       1  0 04:16 ?        00:00:01 /usr/sbin/irqbalance --foreground
+root         746       1  0 04:16 ?        00:00:00 /usr/sbin/mcelog --daemon --foreground
+polkitd      748       1  0 04:16 ?        00:00:04 /usr/lib/polkit-1/polkitd --no-debug
+root         749       1  0 04:16 ?        00:00:00 /usr/libexec/power-profiles-daemon
+root         750       1  0 04:16 ?        00:00:10 /usr/sbin/rsyslogd -n
+rtkit        752       1  0 04:16 ?        00:00:01 /usr/libexec/rtkit-daemon
+root         754       1  0 04:16 ?        00:00:00 /usr/libexec/accounts-daemon
+root         755       1  0 04:16 ?        00:00:00 /usr/libexec/switcheroo-control
+root         758       1  0 04:16 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root         759       1  0 04:16 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root         760       1  0 04:16 ?        00:00:03 /usr/libexec/upowerd
+root         761       1  0 04:16 ?        00:00:18 /usr/bin/VBoxDRMClient
+root         784       1  0 04:16 ?        00:00:11 /usr/sbin/VBoxService -f
+avahi        812     739  0 04:16 ?        00:00:00 avahi-daemon: chroot helper
+root         824       1  0 04:16 ?        00:00:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+root         839       1  0 04:16 ?        00:00:00 /usr/sbin/abrtd -d -s
+chrony       861       1  0 04:16 ?        00:00:00 /usr/sbin/chronyd -F 2
+root         926       1  0 04:16 ?        00:00:00 /usr/sbin/ModemManager
+root         927       1  0 04:16 ?        00:00:00 /usr/bin/abrt-dump-journal-core -D -T -f -e
+root         928       1  0 04:16 ?        00:00:00 /usr/bin/abrt-dump-journal-oops -fxtD
+root         929       1  0 04:16 ?        00:00:00 /usr/bin/abrt-dump-journal-xorg -fxtD
+root         930       1  0 04:16 ?        00:00:00 /usr/bin/python3 -sP /usr/sbin/firewalld --nofork --nopid
+root         938       1  0 04:16 ?        00:00:22 /usr/sbin/NetworkManager --no-daemon
+root         964       1  0 04:16 ?        00:00:00 /usr/sbin/cupsd -l
+root         972       1  0 04:16 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         979       1  0 04:16 ?        00:00:00 /usr/sbin/gssproxy -D
+root         996       1  0 04:16 ?        00:00:00 /usr/sbin/atd -f
+root         998       1  0 04:16 ?        00:00:00 /usr/sbin/crond -n
+colord      1007       1  0 04:16 ?        00:00:00 /usr/libexec/colord
+root        1013       1  0 04:16 ?        00:00:00 /usr/bin/sddm
+root        1139       1  0 04:16 ?        00:00:00 /usr/libexec/uresourced
+root        1141       2  0 04:16 ?        00:00:00 [psimon]
+root        1144       1  0 04:16 ?        00:00:00 /usr/libexec/postfix/master -w
+postfix     1148    1144  0 04:16 ?        00:00:00 qmgr -l -t unix -u
+root        1304    1013  0 04:18 ?        00:00:00 /usr/libexec/sddm-helper --socket /tmp/sddm-auth-cf88e82e-c3f8-4c17-bd38-86893ff12caa --id 1 --start /usr/bin/startplasma-x11 --user rnyhof --display-server /usr/bin/X -nolisten tcp -background none -seat seat0 -noreset -keeptty -novtswitch -verbose 3
+rnyhof      1307       1  0 04:18 ?        00:00:00 /usr/lib/systemd/systemd --user
+rnyhof      1308    1307  0 04:18 ?        00:00:00 (sd-pam)
+rnyhof      1357       1  0 04:18 ?        00:00:05 /usr/bin/kwalletd5 --pam-login 12 13
+rnyhof      1358    1304  0 04:18 tty2     00:00:00 /usr/libexec/sddm-helper-start-x11user /usr/bin/X -nolisten tcp -background none -seat seat0 -noreset -keeptty -novtswitch -verbose 3 /etc/X11/xinit/Xsession "/usr/bin/startplasma-x11"
+rnyhof      1359    1358  2 04:18 tty2     00:14:24 /usr/libexec/Xorg -nolisten tcp -background none -seat seat0 -noreset -keeptty -novtswitch -verbose 3 -auth /run/user/1026/xauth_toelXQ -displayfd 12 vt2
+rnyhof      1361    1358  0 04:18 tty2     00:00:00 /usr/bin/startplasma-x11
+rnyhof      1390    1307  0 04:18 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+rnyhof      1391    1390  0 04:18 ?        00:00:01 dbus-broker --log 4 --controller 10 --machine-id 7701c5a0df0d4049bf772bb234357ba3 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+rnyhof      1400    1307  0 04:18 ?        00:00:00 /usr/libexec/imsettings-daemon
+rnyhof      1582       1  0 04:18 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+rnyhof      1584    1582  0 04:18 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+rnyhof      1597       1  0 04:18 ?        00:00:00 /usr/bin/VBoxClient --seamless
+rnyhof      1598    1597  0 04:18 ?        00:00:26 /usr/bin/VBoxClient --seamless
+rnyhof      1605       1  0 04:18 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+rnyhof      1606    1605  0 04:18 ?        00:01:58 /usr/bin/VBoxClient --draganddrop
+rnyhof      1613    1361  0 04:18 ?        00:00:00 /usr/bin/ssh-agent /bin/sh -c exec -l /bin/ksh -c "/usr/bin/startplasma-x11"
+rnyhof      1831    1307  0 04:18 ?        00:00:00 /usr/libexec/uresourced --user
+rnyhof      1842    1307  0 04:18 ?        00:00:02 /usr/libexec/xdg-desktop-portal
+rnyhof      1844    1307  0 04:18 ?        00:00:00 /usr/bin/pipewire
+rnyhof      1845    1307  0 04:18 ?        00:00:00 /usr/bin/wireplumber
+rnyhof      1864    1307  0 04:18 ?        00:00:00 /usr/libexec/xdg-document-portal
+rnyhof      1875    1307  0 04:18 ?        00:00:00 /usr/libexec/xdg-permission-store
+root        1884    1864  0 04:18 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1026/doc
+rnyhof      1893    1307  0 04:18 ?        00:00:06 /usr/bin/ksmserver
+rnyhof      1895    1307  0 04:18 ?        00:00:20 /usr/bin/kded5
+rnyhof      1896    1307  1 04:18 ?        00:10:38 /usr/bin/kwin_x11 --replace
+rnyhof      1908    1307  0 04:18 ?        00:00:05 /usr/bin/kglobalaccel5
+rnyhof      1916    1307  0 04:18 ?        00:00:53 /usr/bin/plasmashell --no-respawn
+rnyhof      1921    1307  0 04:18 ?        00:00:00 /usr/libexec/dconf-service
+rnyhof      1935    1307  0 04:18 ?        00:00:06 /usr/libexec/kactivitymanagerd
+rnyhof      1943    1307  0 04:18 ?        00:00:05 /usr/bin/gmenudbusmenuproxy
+rnyhof      1944    1307  0 04:18 ?        00:00:05 /usr/libexec/kf5/polkit-kde-authentication-agent-1
+rnyhof      1945    1307  0 04:18 ?        00:00:10 /usr/libexec/org_kde_powerdevil
+rnyhof      1946    1307  0 04:18 ?        00:00:05 /usr/libexec/xdg-desktop-portal-kde
+rnyhof      1949    1307  0 04:18 ?        00:00:05 /usr/bin/xembedsniproxy
+rnyhof      1970    1307  0 04:18 ?        00:00:00 /usr/bin/xsettingsd
+rnyhof      1973    1307  0 04:18 ?        00:00:05 /usr/libexec/kf5/kscreen_backend_launcher
+rnyhof      1991    1307  0 04:18 ?        00:00:01 /usr/libexec/xdg-desktop-portal-gtk
+rnyhof      2049    1307  0 04:18 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+rnyhof      2055    2049  0 04:18 ?        00:00:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+rnyhof      2059    2055  0 04:18 ?        00:00:00 dbus-broker --log 4 --controller 9 --machine-id 7701c5a0df0d4049bf772bb234357ba3 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+rnyhof      2066    1307  0 04:18 ?        00:00:04 /usr/libexec/at-spi2-registryd --use-gnome-session
+rnyhof      2136    1307  0 04:18 ?        00:00:00 /usr/bin/abrt-applet --gapplication-service
+rnyhof      2141    1307  0 04:18 ?        00:00:08 /usr/libexec/kdeconnectd
+rnyhof      2173    1307  0 04:18 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+rnyhof      2175    1307  0 04:18 ?        00:00:06 /usr/bin/kaccess
+rnyhof      2206    1307  0 04:18 ?        00:00:06 /usr/bin/kalendarac
+root        2256       1  0 04:18 ?        00:00:00 /usr/sbin/abrt-dbus -t133
+rnyhof      2413    1307  0 04:18 ?        00:00:00 /usr/bin/pipewire-pulse
+rnyhof      2421    1307  0 04:18 ?        00:00:08 /usr/bin/akonadi_control
+rnyhof      2464    2421  0 04:18 ?        00:00:01 /usr/bin/akonadiserver
+rnyhof      2476    2464  0 04:18 ?        00:00:14 /usr/sbin/mysqld --defaults-file=/home/rnyhof/.local/share/akonadi/mysql.conf --datadir=/home/rnyhof/.local/share/akonadi/db_data/ --socket=/run/user/1026/akonadi/mysql.socket --pid-file=/run/user/1026/akonadi/mysql.pid
+rnyhof      2514    2421  0 04:18 ?        00:00:05 /usr/bin/akonadi_akonotes_resource --identifier akonadi_akonotes_resource_0
+rnyhof      2515    2421  0 04:18 ?        00:00:06 /usr/bin/akonadi_archivemail_agent --identifier akonadi_archivemail_agent
+rnyhof      2516    2421  0 04:18 ?        00:00:05 /usr/bin/akonadi_birthdays_resource --identifier akonadi_birthdays_resource
+rnyhof      2517    2421  0 04:18 ?        00:00:05 /usr/bin/akonadi_contacts_resource --identifier akonadi_contacts_resource_0
+rnyhof      2518    2421  0 04:18 ?        00:00:07 /usr/bin/akonadi_followupreminder_agent --identifier akonadi_followupreminder_agent
+rnyhof      2519    2421  0 04:18 ?        00:00:06 /usr/bin/akonadi_ical_resource --identifier akonadi_ical_resource_0
+rnyhof      2522    2421  0 04:18 ?        00:00:05 /usr/bin/akonadi_indexing_agent --identifier akonadi_indexing_agent
+rnyhof      2523    2421  0 04:18 ?        00:00:06 /usr/bin/akonadi_maildir_resource --identifier akonadi_maildir_resource_0
+rnyhof      2526    2421  0 04:18 ?        00:00:08 /usr/bin/akonadi_maildispatcher_agent --identifier akonadi_maildispatcher_agent
+rnyhof      2529    2421  0 04:18 ?        00:00:06 /usr/bin/akonadi_mailfilter_agent --identifier akonadi_mailfilter_agent
+rnyhof      2532    2421  0 04:18 ?        00:00:08 /usr/bin/akonadi_mailmerge_agent --identifier akonadi_mailmerge_agent
+rnyhof      2536    2421  0 04:18 ?        00:00:05 /usr/bin/akonadi_migration_agent --identifier akonadi_migration_agent
+rnyhof      2538    2421  0 04:18 ?        00:00:06 /usr/bin/akonadi_newmailnotifier_agent --identifier akonadi_newmailnotifier_agent
+rnyhof      2541    2421  0 04:18 ?        00:00:08 /usr/bin/akonadi_sendlater_agent --identifier akonadi_sendlater_agent
+rnyhof      2543    2421  0 04:18 ?        00:00:07 /usr/bin/akonadi_unifiedmailbox_agent --identifier akonadi_unifiedmailbox_agent
+root        2639       1  0 04:18 ?        00:00:00 /usr/libexec/nm-openvpn-service --bus-name org.freedesktop.NetworkManager.openvpn.Connection_3
+nm-open+    2647    2639  0 04:18 ?        00:00:59 /usr/sbin/openvpn --remote frankfurt.eyefreight.com 1194 udp --explicit-exit-notify --nobind --dev tun --auth SHA512 --auth-nocache --tls-auth /home/rnyhof/.cert/nm-openvpn/frankfurt-tls-auth.pem 1 --remote-cert-tls server --reneg-sec 0 --verb 1 --syslog nm-openvpn --script-security 2 --up /usr/libexec/nm-openvpn-service-openvpn-helper --debug 0 2639 --bus-name org.freedesktop.NetworkManager.openvpn.Connection_3 --tun -- --up-restart --persist-key --persist-tun --management /var/run/NetworkManager/nm-openvpn-e0063200-34cf-48af-842f-c11b9c1bac1f unix --management-client-user root --management-client-group root --management-query-passwords --auth-retry interact --route-noexec --ifconfig-noexec --client --ca /home/rnyhof/.cert/nm-openvpn/frankfurt-ca.pem --cert /home/rnyhof/.cert/nm-openvpn/frankfurt-cert.pem --key /home/rnyhof/.cert/nm-openvpn/frankfurt-key.pem --user nm-openvpn --group nm-openvpn
+rnyhof      2677    1916  0 04:18 ?        00:01:50 /usr/bin/konsole
+root        3174       1  0 04:26 ?        00:00:00 /usr/sbin/pcscd --foreground --auto-exit
+rnyhof     33850    2677  0 09:09 pts/4    00:00:00 /bin/ksh -l
+rnyhof     36418    1916  3 10:13 ?        00:07:10 /usr/lib64/firefox/firefox
+rnyhof     36429    1307  0 10:13 ?        00:00:06 /usr/libexec/cgroupify app-firefox-6a9e4a7ab50e469d82c293c81a3093d3.scope
+rnyhof     36484   36418  0 10:13 ?        00:00:00 /usr/lib64/firefox/firefox -contentproc -parentBuildID 20240307150328 -prefsLen 31127 -prefMapSize 238299 -appDir /usr/lib64/firefox/browser {5cb85384-99bb-48b1-b9f5-3fcda0dc8150} 36418 true socket
+rnyhof     36523   36418  0 10:13 ?        00:00:03 /usr/lib64/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 31230 -prefMapSize 238299 -jsInitLen 235124 -parentBuildID 20240307150328 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {bee8962f-d6da-4c5e-b4ae-e70c473304c4} 36418 true tab
+rnyhof     36577   36418  0 10:13 ?        00:00:29 /usr/lib64/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 36526 -prefMapSize 238299 -jsInitLen 235124 -parentBuildID 20240307150328 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {adf087b2-b8f8-4626-9488-43cbaa2b467b} 36418 true tab
+rnyhof     36625   36418  0 10:13 ?        00:00:00 /usr/lib64/firefox/firefox -contentproc -parentBuildID 20240307150328 -sandboxingKind 0 -prefsLen 36514 -prefMapSize 238299 -appDir /usr/lib64/firefox/browser {f0d1af92-386d-4377-8722-efaab70dd974} 36418 true utility
+rnyhof     37152   36418  0 10:21 ?        00:00:00 /usr/lib64/firefox/firefox -contentproc -parentBuildID 20240307150328 -prefsLen 36536 -prefMapSize 238299 -appDir /usr/lib64/firefox/browser {3088190f-a7a7-4353-80b7-d146fd9d9585} 36418 true rdd
+rnyhof     37409   36418  0 10:29 ?        00:00:56 /usr/lib64/firefox/firefox -contentproc -childID 13 -isForBrowser -prefsLen 31741 -prefMapSize 238299 -jsInitLen 235124 -parentBuildID 20240307150328 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {5222d945-29c2-46a8-ad62-4c3717d426ff} 36418 true tab
+rnyhof     38250   36418  1 10:54 ?        00:01:55 /usr/lib64/firefox/firefox -contentproc -childID 17 -isForBrowser -prefsLen 31741 -prefMapSize 238299 -jsInitLen 235124 -parentBuildID 20240307150328 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {588a200c-c426-4138-82bb-1bddec9ec612} 36418 true tab
+rnyhof     40350   36418  0 11:50 ?        00:00:21 /usr/lib64/firefox/firefox -contentproc -childID 18 -isForBrowser -prefsLen 31798 -prefMapSize 238299 -jsInitLen 235124 -parentBuildID 20240307150328 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {b2a5da6e-7e34-4c16-bd48-46bf324358ee} 36418 true tab
+rnyhof     40354   36418  0 11:50 ?        00:00:00 /usr/lib64/firefox/firefox -contentproc -childID 19 -isForBrowser -prefsLen 31798 -prefMapSize 238299 -jsInitLen 235124 -parentBuildID 20240307150328 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {103c3275-e1b3-4d03-a701-bef2ba78d80e} 36418 true tab
+root       40468       2  0 12:07 ?        00:00:00 [kworker/u5:1-events_unbound]
+postfix    40533    1144  0 12:36 ?        00:00:00 pickup -l -t unix -u
+rnyhof     40608   36418  0 12:47 ?        00:00:00 /usr/lib64/firefox/firefox -contentproc -childID 20 -isForBrowser -prefsLen 31798 -prefMapSize 238299 -jsInitLen 235124 -parentBuildID 20240307150328 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {c4ebe9e6-e8a0-4bf7-b353-119ca9ac6d99} 36418 true tab
+root       40994       2  0 12:52 ?        00:00:00 [kworker/1:0H-kblockd]
+root       42723       2  0 13:08 ?        00:00:00 [kworker/1:2H-kblockd]
+root       43456       2  0 13:13 ?        00:00:00 [kworker/u6:1-events_unbound]
+root       43571       2  0 13:15 ?        00:00:00 [kworker/u5:3-flush-8:0]
+root       44598       2  0 13:23 ?        00:00:00 [kworker/u6:3-writeback]
+root       44625       2  0 13:24 ?        00:00:00 [kworker/0:0H-kblockd]
+root       44851       2  0 13:30 ?        00:00:00 [kworker/u5:2-events_unbound]
+rnyhof     44876   36418  0 13:31 ?        00:00:00 /usr/lib64/firefox/firefox -contentproc -childID 21 -isForBrowser -prefsLen 31798 -prefMapSize 238299 -jsInitLen 235124 -parentBuildID 20240307150328 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {862483b8-237f-4382-a751-4e4ce2ce6d24} 36418 true tab
+root       44901       2  0 13:31 ?        00:00:00 [kworker/u6:2-events_unbound]
+root       44915       2  0 13:32 ?        00:00:01 [kworker/0:0-events]
+root       44970       2  0 13:35 ?        00:00:01 [kworker/1:1-events]
+rnyhof     45254    2677  0 13:37 pts/0    00:00:00 /bin/ksh -l
+root       45519       2  0 13:45 ?        00:00:00 [kworker/0:1H-ttm]
+root       45931       2  0 13:55 ?        00:00:00 [kworker/0:1-events]
+root       45975       2  0 13:56 ?        00:00:00 [kworker/1:3-ata_sff]
+root       46084       1  0 13:58 ?        00:00:00 /usr/libexec/sssd/sssd_kcm --uid 0 --gid 0 --logger=files
+root       46158     714  0 13:58 ?        00:00:00 systemd-userwork: waiting...
+root       46159     714  0 13:58 ?        00:00:00 systemd-userwork: waiting...
+root       46206       2  0 14:00 ?        00:00:00 [kworker/u5:0-xfs-cil/sda2]
+root       46286     714  0 14:00 ?        00:00:00 systemd-userwork: waiting...
+root       46290       2  0 14:00 ?        00:00:00 [kworker/0:2H-kblockd]
+root       46389       2  0 14:01 ?        00:00:00 [kworker/1:0]
+root       46405       2  0 14:01 ?        00:00:00 [kworker/0:2]
+rnyhof     46492   45254  0 14:03 pts/0    00:00:00 ps -ef
