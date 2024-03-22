@@ -1,13 +1,10 @@
 #!/bin/ksh
 
-set -A JSON
+typeset -a JSON
 
 function cache {
   typeset -i i=0
-
-  while read JSON[$((i+=1))] ; do
-   :
-  done < "${1}"
+  while read JSON[$((i+=1))];do;:;done < "${1}"
 }
 
 function j1 {
