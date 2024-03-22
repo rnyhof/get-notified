@@ -22,3 +22,5 @@ for i in {0..$(j1 '.packages|length')} ; do
   j2 "${P}" '[.name,.version,.revision]|@tsv' | read PN PV PR
   echo "${PN} ${PV} ${PR}"
 done
+
+exit 0
