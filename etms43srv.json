@@ -4,7 +4,6 @@
     {
       "name": "corretto",
       "version": "11.0.21",
-      "revision": 1
     },
     {
       "name": "sux",
@@ -14,15 +13,13 @@
   ],
   "instances": [
     {
-      "type": "all",
+      "role": "all",
       "packages": [
         {
-          "name": "etms-app-13.8.2",
-          "revision": 1
+          "name": "etms-app-13.8.2"
         },
         {
-          "name": "etms-dmn-13.8.2",
-          "revision": 1
+          "name": "etms-dmn-13.8.2"
         }
       ]
     }
