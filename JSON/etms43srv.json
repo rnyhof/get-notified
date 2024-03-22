@@ -3,12 +3,12 @@
   "packages": [
     {
       "name": "corretto",
-      "version": 11.0.21,
+      "version": "11.0.21",
       "revision": 1
     },
     {
       "name": "sux",
-      "version": 1.3,
+      "version": "1.3",
       "revision": 1
     }
   ],
@@ -22,7 +22,6 @@
         },
         {
           "name": "etms-dmn-13.8.2",
-          "revision": 1
           "revision": 1
         }
       ]
