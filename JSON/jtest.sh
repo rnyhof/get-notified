@@ -2,7 +2,7 @@
 
 set -A JSON
 
-function jread {
+function cache {
   typeset -i i=0
 
   while read JSON[$((i+=1))] ; do
@@ -10,14 +10,18 @@ function jread {
   done < "${1}"
 }
 
-function jcat {
-  echo ${JSON[*]}
+function j1 {
+  echo ${JSON[*]} | jq -r "${1}"
 }
 
-function jexe {
-  echo ${JSON[*]} | jq "${1}"
+function j2 {
+  echo "${1}" | jq -r "${2}"
 }
 
-jread etms43srv.json
+cache 'etms43srv.json'
 
-jexe '.packages|length'
+for i in {0..$(j1 '.packages|length')} ; do
+  P=$(j1 ".packages[$((i-1))]")
+  j2 "${P}" '[.name,.version,.revision]|@tsv' | read PN PV PR
+  echo "${PN} ${PV} ${PR}"
+done
