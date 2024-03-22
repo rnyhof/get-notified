@@ -1,15 +1,14 @@
 {
   "cluster": "etms43srv",
-  "dummy": 27,
+  "dummy": 28,
   "packages": [
     {
       "name": "corretto",
-      "version": "11.0.21"
+      "version": "11.0.19"
     },
     {
-      "name": "sux",
-      "version": "1.2",
-      "revision": 1
+      "name": "tomcat",
+      "version": "9.0.80"
     },
     {
       "name": "tree",
@@ -20,6 +19,9 @@
     {
       "role": "app",
       "packages": [
+        {
+          "name": "artemis-2.18.0"
+        },
         {
           "name": "etms-app-13.8.2"
         },
