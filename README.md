@@ -1,1 +1,1 @@
-Test repository for gNotify triggerred deployments.
+### Test repository for gNotify triggered deployments.
