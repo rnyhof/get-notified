@@ -1,10 +1,10 @@
 {
   "cluster": "etms43srv",
-  "dummy": 30,
+  "dummy": 5,
   "packages": [
     {
       "name": "corretto",
-      "version": "11.0.20"
+      "version": "11.0.19"
     },
     {
       "name": "tomcat",
