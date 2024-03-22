@@ -1,6 +1,6 @@
 {
   "cluster": "etms43srv",
-  "dummy": 23,
+  "dummy": 24,
   "packages": [
     {
       "name": "corretto",
@@ -12,7 +12,8 @@
       "revision": 1
     },
     {
-      "name": "tree"
+      "name": "tree",
+      "version": "*"
     }
   ],
   "instances": [
