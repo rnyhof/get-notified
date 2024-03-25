@@ -1,6 +1,6 @@
 {
   "cluster": "etms43srv",
-  "dummy": 9,
+  "dummy": 10,
   "packages": [
     {
       "name": "corretto",
@@ -18,15 +18,21 @@
   "instances": [
     {
       "role": "app",
+      "rpm": {
+        "template": "template-app.spec"
+      },
       "packages": [
         {
-          "name": "artemis-2.18.0"
+          "name": "artemis-2.18.0",
+          "version": "*"
         },
         {
-          "name": "etms-app-13.8.2"
+          "name": "etms-app-13.8.2",
+          "version": "*"
         },
         {
-          "name": "etms-dmn-13.8.2"
+          "name": "etms-dmn-13.8.2",
+          "version": "*"
         }
       ]
     }
