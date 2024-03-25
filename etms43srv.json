@@ -1,7 +1,15 @@
 {
   "cluster": "etms43srv",
-  "dummy": 13,
+  "spec": "template-ec2.spec",
+  "vars": {
+    "jms_version": "2.18.0",
+    "etms_version": "13.8.2"
+  },
   "packages": [
+    {
+      "name": "corretto",
+      "version": "8.382"
+    },
     {
       "name": "corretto",
       "version": "11.0.21"
@@ -9,30 +17,41 @@
     {
       "name": "tomcat",
       "version": "9.0.80"
-    },
-    {
-      "name": "tree",
-      "version": "*"
     }
   ],
-  "instances": [
+  "roles": [
     {
-      "role": "app",
-      "rpm": {
-        "template": "template-app.spec"
-      },
+      "role": "jms",
+      "spec": "template-jms.spec",
       "packages": [
         {
-          "name": "artemis-2.18.0",
-          "version": "*"
+          "name": "artemis",
+          "version": "2.18.0",
+          "or": "%{jms_version}"
+        }
+      ]
+    },
+    {
+      "role": "app",
+      "spec": "template-app.spec",
+      "packages": [
+        {
+          "name": "etms-app-13.8.2"
         },
         {
-          "name": "etms-app-13.8.2",
-          "version": "*"
+          "name": "etms-optit"
+        }
+      ]
+    },
+    {
+      "role": "dmn",
+      "spec": "template-dmn.spec",
+      "packages": [
+        {
+          "name": "etms-dmn-13.8.2"
         },
         {
-          "name": "etms-dmn-13.8.2",
-          "version": "*"
+          "name": "etms-optit"
         }
       ]
     }
