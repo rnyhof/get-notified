@@ -43,7 +43,7 @@
       "spec": "template-dmn.spec",
       "packages": [
         {
-          "name": "etms-dmn-13.8.2"
+          "name": "etms-dmn-13.8.3"
         },
         {
           "name": "etms-optit"

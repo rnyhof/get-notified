@@ -1,0 +1,323 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 08:47 ?        00:00:03 /usr/lib/systemd/systemd --switched-root --system --deserialize=49
+root           2       0  0 08:47 ?        00:00:00 [kthreadd]
+root           3       2  0 08:47 ?        00:00:00 [pool_workqueue_release]
+root           4       2  0 08:47 ?        00:00:00 [kworker/R-rcu_g]
+root           5       2  0 08:47 ?        00:00:00 [kworker/R-rcu_p]
+root           6       2  0 08:47 ?        00:00:00 [kworker/R-slub_]
+root           7       2  0 08:47 ?        00:00:00 [kworker/R-netns]
+root           9       2  0 08:47 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          12       2  0 08:47 ?        00:00:00 [kworker/R-mm_pe]
+root          14       2  0 08:47 ?        00:00:00 [rcu_tasks_kthread]
+root          15       2  0 08:47 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          16       2  0 08:47 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          17       2  0 08:47 ?        00:00:00 [ksoftirqd/0]
+root          18       2  0 08:47 ?        00:00:07 [rcu_preempt]
+root          19       2  0 08:47 ?        00:00:00 [migration/0]
+root          20       2  0 08:47 ?        00:00:00 [idle_inject/0]
+root          21       2  0 08:47 ?        00:00:00 [cpuhp/0]
+root          22       2  0 08:47 ?        00:00:00 [cpuhp/1]
+root          23       2  0 08:47 ?        00:00:00 [idle_inject/1]
+root          24       2  0 08:47 ?        00:00:00 [migration/1]
+root          25       2  0 08:47 ?        00:00:01 [ksoftirqd/1]
+root          27       2  0 08:47 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          28       2  0 08:47 ?        00:00:00 [cpuhp/2]
+root          29       2  0 08:47 ?        00:00:00 [idle_inject/2]
+root          30       2  0 08:47 ?        00:00:00 [migration/2]
+root          31       2  0 08:47 ?        00:00:00 [ksoftirqd/2]
+root          33       2  0 08:47 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          34       2  0 08:47 ?        00:00:00 [cpuhp/3]
+root          35       2  0 08:47 ?        00:00:00 [idle_inject/3]
+root          36       2  0 08:47 ?        00:00:00 [migration/3]
+root          37       2  0 08:47 ?        00:00:00 [ksoftirqd/3]
+root          39       2  0 08:47 ?        00:00:00 [kworker/3:0H-events_highpri]
+root          40       2  0 08:47 ?        00:00:00 [cpuhp/4]
+root          41       2  0 08:47 ?        00:00:00 [idle_inject/4]
+root          42       2  0 08:47 ?        00:00:00 [migration/4]
+root          43       2  0 08:47 ?        00:00:04 [ksoftirqd/4]
+root          45       2  0 08:47 ?        00:00:00 [kworker/4:0H-events_highpri]
+root          46       2  0 08:47 ?        00:00:00 [cpuhp/5]
+root          47       2  0 08:47 ?        00:00:00 [idle_inject/5]
+root          48       2  0 08:47 ?        00:00:00 [migration/5]
+root          49       2  0 08:47 ?        00:00:00 [ksoftirqd/5]
+root          51       2  0 08:47 ?        00:00:00 [kworker/5:0H-events_highpri]
+root          52       2  0 08:47 ?        00:00:00 [cpuhp/6]
+root          53       2  0 08:47 ?        00:00:00 [idle_inject/6]
+root          54       2  0 08:47 ?        00:00:00 [migration/6]
+root          55       2  0 08:47 ?        00:00:00 [ksoftirqd/6]
+root          57       2  0 08:47 ?        00:00:00 [kworker/6:0H-events_highpri]
+root          58       2  0 08:47 ?        00:00:00 [cpuhp/7]
+root          59       2  0 08:47 ?        00:00:00 [idle_inject/7]
+root          60       2  0 08:47 ?        00:00:00 [migration/7]
+root          61       2  0 08:47 ?        00:00:00 [ksoftirqd/7]
+root          63       2  0 08:47 ?        00:00:00 [kworker/7:0H-events_highpri]
+root          64       2  0 08:47 ?        00:00:00 [kdevtmpfs]
+root          65       2  0 08:47 ?        00:00:00 [kworker/R-inet_]
+root          66       2  0 08:47 ?        00:00:00 [kauditd]
+root          67       2  0 08:47 ?        00:00:00 [oom_reaper]
+root          68       2  0 08:47 ?        00:00:00 [kworker/R-write]
+root          70       2  0 08:47 ?        00:00:00 [kcompactd0]
+root          71       2  0 08:47 ?        00:00:00 [ksmd]
+root          73       2  0 08:47 ?        00:00:00 [khugepaged]
+root          74       2  0 08:47 ?        00:00:00 [kworker/R-crypt]
+root          75       2  0 08:47 ?        00:00:00 [kworker/R-kinte]
+root          76       2  0 08:47 ?        00:00:00 [kworker/R-kbloc]
+root          77       2  0 08:47 ?        00:00:00 [kworker/R-blkcg]
+root          79       2  0 08:47 ?        00:00:03 [irq/9-acpi]
+root          84       2  0 08:47 ?        00:00:00 [kworker/R-tpm_d]
+root          85       2  0 08:47 ?        00:00:00 [kworker/R-ata_s]
+root          86       2  0 08:47 ?        00:00:00 [kworker/R-md]
+root          87       2  0 08:47 ?        00:00:00 [kworker/R-md_bi]
+root          88       2  0 08:47 ?        00:00:00 [kworker/R-edac-]
+root          89       2  0 08:47 ?        00:00:00 [kworker/R-devfr]
+root          90       2  0 08:47 ?        00:00:00 [watchdogd]
+root          91       2  0 08:47 ?        00:00:00 [kworker/1:1H-events_highpri]
+root          92       2  0 08:47 ?        00:00:00 [kswapd0]
+root         102       2  0 08:47 ?        00:00:00 [kworker/R-kthro]
+root         109       2  0 08:47 ?        00:00:00 [kworker/R-acpi_]
+root         110       2  0 08:47 ?        00:00:00 [hwrng]
+root         112       2  0 08:47 ?        00:00:00 [scsi_eh_0]
+root         113       2  0 08:47 ?        00:00:00 [kworker/R-scsi_]
+root         114       2  0 08:47 ?        00:00:00 [scsi_eh_1]
+root         115       2  0 08:47 ?        00:00:00 [kworker/R-scsi_]
+root         117       2  0 08:47 ?        00:00:00 [kworker/R-dm_bu]
+root         119       2  0 08:47 ?        00:00:00 [kworker/R-mld]
+root         120       2  0 08:47 ?        00:00:00 [kworker/R-ipv6_]
+root         121       2  0 08:47 ?        00:00:00 [kworker/4:1H-events_highpri]
+root         126       2  0 08:47 ?        00:00:00 [kworker/R-kstrp]
+root         132       2  0 08:47 ?        00:00:07 [kworker/u17:0-uvcvideo]
+root         245       2  0 08:47 ?        00:00:01 [kworker/5:1H-events_highpri]
+root         286       2  0 08:47 ?        00:00:00 [kworker/3:1H-events_highpri]
+root         287       2  0 08:47 ?        00:00:00 [kworker/6:1H-events_highpri]
+root         291       2  0 08:47 ?        00:00:00 [kworker/2:1H-kblockd]
+root         298       2  0 08:47 ?        00:00:00 [kworker/0:1H-xfs-log/nvme0n1p4]
+root         300       2  0 08:47 ?        00:00:00 [kworker/7:1H-xfs-log/nvme0n1p4]
+root         446       2  0 08:47 ?        00:00:00 [irq/51-DLL07BE:01]
+root         457       2  0 08:47 ?        00:00:00 [kworker/R-nvme-]
+root         458       2  0 08:47 ?        00:00:00 [kworker/R-nvme-]
+root         459       2  0 08:47 ?        00:00:00 [kworker/R-nvme-]
+root         461       2  0 08:47 ?        00:00:00 [kworker/R-nvme-]
+root         504       2  0 08:47 ?        00:00:00 [kworker/R-ttm]
+root         506       2  0 08:47 ?        00:00:00 [card0-crtc0]
+root         507       2  0 08:47 ?        00:00:00 [card0-crtc1]
+root         508       2  0 08:47 ?        00:00:00 [card0-crtc2]
+root         536       2  0 08:47 ?        00:00:00 [kworker/R-xfsal]
+root         537       2  0 08:47 ?        00:00:00 [kworker/R-xfs_m]
+root         538       2  0 08:47 ?        00:00:00 [kworker/R-xfs-b]
+root         539       2  0 08:47 ?        00:00:00 [kworker/R-xfs-c]
+root         540       2  0 08:47 ?        00:00:00 [kworker/R-xfs-r]
+root         541       2  0 08:47 ?        00:00:00 [kworker/R-xfs-b]
+root         542       2  0 08:47 ?        00:00:00 [kworker/R-xfs-i]
+root         543       2  0 08:47 ?        00:00:00 [kworker/R-xfs-l]
+root         544       2  0 08:47 ?        00:00:00 [kworker/R-xfs-c]
+root         545       2  0 08:47 ?        00:00:01 [xfsaild/nvme0n1p4]
+root         637       1  0 08:47 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root         668       1  0 08:47 ?        00:00:00 /usr/lib/systemd/systemd-userdbd
+root         673       2  0 08:47 ?        00:00:00 [psimon]
+root         679       1  0 08:47 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root         683       2  0 08:47 ?        00:00:00 [psimon]
+root         747       2  0 08:47 ?        00:00:00 [kworker/R-xfs-b]
+root         748       2  0 08:47 ?        00:00:00 [kworker/R-xfs-c]
+root         749       2  0 08:47 ?        00:00:00 [kworker/R-xfs-r]
+root         750       2  0 08:47 ?        00:00:00 [kworker/R-xfs-b]
+root         751       2  0 08:47 ?        00:00:00 [kworker/R-xfs-i]
+root         752       2  0 08:47 ?        00:00:00 [kworker/R-xfs-l]
+root         753       2  0 08:47 ?        00:00:00 [kworker/R-xfs-c]
+root         754       2  0 08:47 ?        00:00:00 [xfsaild/nvme0n1p2]
+root         776       2  0 08:47 ?        00:00:00 [irq/159-mei_me]
+root         787       2  0 08:47 ?        00:00:00 [kworker/R-cfg80]
+rpc          800       1  0 08:47 ?        00:00:00 /usr/bin/rpcbind -w -f
+systemd+     802       1  0 08:47 ?        00:00:14 /usr/lib/systemd/systemd-oomd
+systemd+     808       1  0 08:47 ?        00:00:01 /usr/lib/systemd/systemd-resolved
+root         827       1  0 08:47 ?        00:00:00 /usr/sbin/auditd
+root         829     827  0 08:47 ?        00:00:00 /usr/sbin/sedispatch
+root         841       2  0 08:47 ?        00:00:00 [kworker/R-rpcio]
+root         842       2  0 08:47 ?        00:00:00 [kworker/R-xprti]
+root         854       2  0 08:47 ?        00:00:00 [kworker/R-ath10]
+root         855       2  0 08:47 ?        00:00:00 [kworker/R-ath10]
+root         856       2  0 08:47 ?        00:00:00 [kworker/R-ath10]
+dbus         867       1  0 08:47 ?        00:00:00 /usr/bin/dbus-broker-launch --scope system --audit
+dbus         888     867  0 08:47 ?        00:00:00 dbus-broker --log 4 --controller 9 --machine-id 224ade994a9c4580a1728872d377bcd1 --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+avahi        892       1  0 08:47 ?        00:00:02 avahi-daemon: running [xps15.local]
+root         893       1  0 08:47 ?        00:00:00 /usr/libexec/bluetooth/bluetoothd
+root         897       1  0 08:47 ?        00:00:00 /usr/sbin/irqbalance
+root         921       1  0 08:47 ?        00:00:00 /usr/sbin/mcelog --daemon --foreground
+polkitd      933       1  0 08:47 ?        00:00:02 /usr/lib/polkit-1/polkitd --no-debug
+root         939       1  0 08:47 ?        00:00:00 /usr/libexec/power-profiles-daemon
+root         964       1  0 08:47 ?        00:00:05 /usr/sbin/rsyslogd -n
+rtkit        969       1  0 08:47 ?        00:00:00 /usr/libexec/rtkit-daemon
+root         978       1  0 08:47 ?        00:00:00 /usr/sbin/smartd -n -q never --capabilities=mail
+root         991       1  0 08:47 ?        00:00:00 /usr/libexec/accounts-daemon
+root         996       1  0 08:47 ?        00:00:00 /usr/libexec/switcheroo-control
+root        1015       1  0 08:47 ?        00:00:00 /usr/lib/systemd/systemd-homed
+root        1021       1  0 08:47 ?        00:00:07 /usr/lib/systemd/systemd-logind
+root        1026       1  0 08:47 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root        1036       1  0 08:47 ?        00:00:02 /usr/libexec/upowerd
+root        1039       2  0 08:47 ?        00:00:00 [psimon]
+chrony      1043       1  0 08:47 ?        00:00:00 /usr/sbin/chronyd -F 2
+root        1049       1  0 08:47 ?        00:00:00 /usr/sbin/abrtd -d -s
+avahi       1109     892  0 08:47 ?        00:00:00 avahi-daemon: chroot helper
+root        1114       1  0 08:47 ?        00:00:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+root        1160       1  0 08:47 ?        00:00:00 /usr/bin/abrt-dump-journal-core -D -T -f -e
+root        1166       1  0 08:47 ?        00:00:00 /usr/bin/abrt-dump-journal-oops -fxtD
+root        1167       1  0 08:47 ?        00:00:00 /usr/bin/abrt-dump-journal-xorg -fxtD
+root        1182       1  0 08:47 ?        00:00:00 /usr/sbin/ModemManager
+root        1183       1  0 08:47 ?        00:00:00 /usr/bin/python3 -sP /usr/sbin/firewalld --nofork --nopid
+root        1211       1  0 08:47 ?        00:00:03 /usr/sbin/NetworkManager --no-daemon
+root        1242       1  0 08:47 ?        00:00:00 /usr/sbin/cupsd -l
+root        1250       1  0 08:47 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+colord      1273       1  0 08:47 ?        00:00:00 /usr/libexec/colord
+root        1284       1  0 08:47 ?        00:00:00 /usr/sbin/gssproxy -D
+root        1298       2  0 08:47 ?        00:00:00 [nv_queue]
+root        1299       2  0 08:47 ?        00:00:00 [nv_queue]
+root        1300       2  0 08:47 ?        00:00:00 [nv_open_q]
+root        1392       1  0 08:47 ?        00:00:00 /usr/libexec/postfix/master -w
+postfix     1394    1392  0 08:47 ?        00:00:00 qmgr -l -t unix -u
+root        1397       2  0 08:47 ?        00:00:00 [UVM global queue]
+root        1398       2  0 08:47 ?        00:00:00 [UVM deferred release queue]
+root        1399       2  0 08:47 ?        00:00:00 [UVM Tools Event Queue]
+root        1403       2  0 08:47 ?        00:00:00 [nvidia-modeset/kthread_q]
+root        1404       2  0 08:47 ?        00:00:00 [nvidia-modeset/deferred_close_kthread_q]
+root        1405       2  0 08:47 ?        00:00:00 [irq/162-nvidia]
+root        1406       2  0 08:47 ?        00:00:00 [nvidia]
+root        1407       2  0 08:47 ?        00:00:00 [nv_queue]
+nx          1443       1  0 08:47 ?        00:00:24 /usr/NX/bin/nxserver.bin --daemon
+rpcuser     1451       1  0 08:47 ?        00:00:00 /usr/sbin/rpc.statd
+root        1476       2  0 08:47 ?        00:00:00 [kworker/R-nfsio]
+root        1482       2  0 08:47 ?        00:00:00 [lockd]
+root        1487       1  0 08:47 ?        00:00:00 /usr/sbin/automount --systemd-service --dont-check-daemon
+root        1496       1  0 08:47 ?        00:00:00 /usr/sbin/atd -f
+root        1504       1  0 08:47 ?        00:00:00 /usr/sbin/crond -n
+root        1510       1  0 08:47 ?        00:00:00 /usr/bin/sddm
+root        1518       1  0 08:47 ?        00:00:00 /usr/libexec/uresourced
+root        1520       2  0 08:47 ?        00:00:00 [psimon]
+root        1629       2  0 08:47 ?        00:00:00 [krfcommd]
+nx          1632    1443  0 08:47 ?        00:00:00 /usr/NX/bin/nxd
+root        1791    1510  0 08:47 ?        00:00:00 /usr/libexec/sddm-helper --socket /tmp/sddm-auth-bf44f77a-4103-4b86-9d15-d26d7ddbbd51 --id 1 --start /usr/libexec/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland --user rnyhof
+rnyhof      1797       1  0 08:47 ?        00:00:01 /usr/lib/systemd/systemd --user
+rnyhof      1799    1797  0 08:47 ?        00:00:00 (sd-pam)
+rnyhof      1829    1797  0 08:47 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+rnyhof      1830    1829  0 08:47 ?        00:00:01 dbus-broker --log 4 --controller 10 --machine-id 224ade994a9c4580a1728872d377bcd1 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+rnyhof      1844       1  0 08:47 ?        00:00:00 /usr/bin/kwalletd6 --pam-login 13 14
+rnyhof      1845    1791  0 08:47 tty2     00:00:00 /usr/bin/startplasma-wayland
+rnyhof      2074    1797  0 08:47 ?        00:00:00 /usr/bin/kwin_wayland_wrapper --xwayland
+rnyhof      2076    1797  0 08:47 ?        00:00:00 /usr/libexec/uresourced --user
+rnyhof      2078    1797  0 08:47 ?        00:01:21 /usr/bin/pipewire
+rnyhof      2079    1797  0 08:47 ?        00:00:02 /usr/bin/wireplumber
+rnyhof      2080    1797  0 08:47 ?        00:02:43 /usr/bin/pipewire-pulse
+rnyhof      2087    2074  3 08:47 ?        00:11:03 /usr/bin/kwin_wayland --wayland-fd 7 --socket wayland-0 --xwayland-fd 8 --xwayland-fd 9 --xwayland-display :0 --xwayland-xauthority /run/user/1026/xauth_MQwJoE --xwayland
+rnyhof      2109    1797  0 08:47 ?        00:00:01 /usr/libexec/xdg-desktop-portal
+rnyhof      2120    1797  0 08:47 ?        00:00:00 /usr/libexec/xdg-document-portal
+rnyhof      2130    1797  0 08:47 ?        00:00:00 /usr/libexec/xdg-permission-store
+root        2137    2120  0 08:47 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1026/doc
+rnyhof      2171    2087  0 08:47 ?        00:00:11 /usr/bin/maliit-keyboard
+rnyhof      2196    2087  0 08:47 ?        00:00:29 /usr/bin/Xwayland :0 -auth /run/user/1026/xauth_MQwJoE -listenfd 91 -listenfd 92 -displayfd 82 -rootless -wm 86
+rnyhof      2217    1797  0 08:47 ?        00:00:00 /usr/bin/ksmserver
+rnyhof      2220    1797  0 08:47 ?        00:00:02 /usr/bin/kded6
+rnyhof      2247    1797  0 08:47 ?        00:00:25 /usr/bin/plasmashell --no-respawn
+rnyhof      2281    1797  0 08:47 ?        00:00:00 /usr/libexec/kactivitymanagerd
+rnyhof      2283    1797  0 08:47 ?        00:00:00 /usr/libexec/dconf-service
+rnyhof      2315    1797  0 08:47 ?        00:00:00 /usr/bin/gmenudbusmenuproxy
+rnyhof      2317    1797  0 08:47 ?        00:00:00 /usr/libexec/kf6/polkit-kde-authentication-agent-1
+rnyhof      2318    1797  0 08:47 ?        00:00:00 /usr/libexec/org_kde_powerdevil
+rnyhof      2321    1797  0 08:47 ?        00:00:01 /usr/libexec/xdg-desktop-portal-kde
+rnyhof      2322    1797  0 08:47 ?        00:00:00 /usr/bin/xembedsniproxy
+rnyhof      2324    1797  0 08:47 ?        00:00:00 /usr/bin/ssh-agent -D -a /run/user/1026/ssh-agent.socket
+rnyhof      2347    1797  0 08:47 ?        00:00:00 /usr/bin/xsettingsd
+rnyhof      2356    1797  0 08:47 ?        00:00:00 /usr/libexec/bluetooth/obexd
+rnyhof      2392    1797  0 08:47 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+rnyhof      2412    1797  0 08:47 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+rnyhof      2418    2412  0 08:47 ?        00:00:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+rnyhof      2419    2418  0 08:47 ?        00:00:00 dbus-broker --log 4 --controller 9 --machine-id 224ade994a9c4580a1728872d377bcd1 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+rnyhof      2431    1797  0 08:47 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+rnyhof      2490    1797  0 08:47 ?        00:00:00 /usr/bin/abrt-applet --gapplication-service
+rnyhof      2499    1797  0 08:47 ?        00:00:01 /usr/libexec/kdeconnectd
+rnyhof      2507    1797  0 08:47 ?        00:00:00 /usr/bin/xwaylandvideobridge
+rnyhof      2537    1797  0 08:47 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+rnyhof      2551    1797  0 08:47 ?        00:00:00 /usr/bin/kaccess
+root        2582       1  0 08:47 ?        00:00:00 /usr/sbin/abrt-dbus -t133
+rnyhof      2672    1797  0 08:47 ?        00:00:00 /usr/libexec/imsettings-daemon
+root        2964    1443  0 08:48 ?        00:00:00 /usr/NX/bin/nxexec --node --user rnyhof --priority realtime --mode 0 --pid 45
+rnyhof      2971    2964  0 08:48 ?        00:00:00 /usr/NX/bin/nxnode.bin
+rnyhof      3025    2971  0 08:48 ?        00:00:02 /usr/NX/bin/nxrunner.bin --monitor --pid 2196
+rnyhof      3455    2247  0 08:49 ?        00:00:25 /usr/bin/konsole
+rnyhof      3480    3455  0 08:49 pts/0    00:00:00 /bin/ksh -l
+rnyhof      3822    2247  0 08:50 ?        00:01:36 /opt/google/chrome/chrome
+rnyhof      3823    1797  0 08:50 ?        00:00:04 /usr/libexec/cgroupify app-google\x2dchrome-1268404011c745748199b072b753e0f1.scope
+rnyhof      3827    3822  0 08:50 ?        00:00:00 cat
+rnyhof      3828    3822  0 08:50 ?        00:00:00 cat
+rnyhof      3835    1797  0 08:50 ?        00:00:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/rnyhof/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Fedora Linux 40 (KDE Plasma) --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=124.0.6367.118 --initial-client-fd=5 --shared-client-connection
+rnyhof      3837    1797  0 08:50 ?        00:00:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/rnyhof/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Fedora Linux 40 (KDE Plasma) --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=124.0.6367.118 --initial-client-fd=4 --shared-client-connection
+rnyhof      3843    3822  0 08:50 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=3835 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+rnyhof      3844    3822  0 08:50 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=3835 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+rnyhof      3847    3844  0 08:50 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=3835 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+rnyhof      3876    3843  0 08:50 ?        00:01:37 /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=3835 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,11408848637100910493,11379338191643417580,262144 --variations-seed-version=20240502-113422.320000
+rnyhof      3878    3822  0 08:50 ?        00:01:03 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=3835 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11408848637100910493,11379338191643417580,262144 --variations-seed-version=20240502-113422.320000
+rnyhof      3880    3847  0 08:50 ?        00:00:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --crashpad-handler-pid=3835 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11408848637100910493,11379338191643417580,262144 --variations-seed-version=20240502-113422.320000
+root        4004       1  0 08:50 ?        00:00:00 /usr/sbin/pcscd --foreground --auto-exit
+rnyhof      4293    3847  3 08:51 ?        00:13:32 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3835 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=32 --time-ticks-at-unix-epoch=-1714978027429309 --launch-time-ticks=236308933 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11408848637100910493,11379338191643417580,262144 --variations-seed-version=20240502-113422.320000
+rnyhof      4362    3822  1 08:51 ?        00:05:18 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=3835 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11408848637100910493,11379338191643417580,262144 --variations-seed-version=20240502-113422.320000
+rnyhof      5210    2247  4 08:59 ?        00:16:22 /usr/lib64/firefox/firefox
+rnyhof      5303    5210  0 08:59 ?        00:00:00 /usr/lib64/firefox/firefox -contentproc -parentBuildID 20240501044531 -prefsLen 30889 -prefMapSize 242667 -appDir /usr/lib64/firefox/browser {eb7e0702-bb1c-451d-bc61-98e6efae1ba1} 5210 true socket
+rnyhof      5321    5210  0 08:59 ?        00:00:54 /usr/lib64/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 30954 -prefMapSize 242667 -jsInitLen 234952 -parentBuildID 20240501044531 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {a6e4281a-61c2-4a62-b2e8-d49cbe5fbfac} 5210 true tab
+rnyhof      5347    5210  0 08:59 ?        00:00:03 /usr/lib64/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 31960 -prefMapSize 242667 -jsInitLen 234952 -parentBuildID 20240501044531 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {81351e94-6400-4515-b14d-ea92e31d5d67} 5210 true tab
+rnyhof      5435    5210  0 08:59 ?        00:00:02 /usr/lib64/firefox/firefox -contentproc -parentBuildID 20240501044531 -sandboxingKind 0 -prefsLen 36470 -prefMapSize 242667 -appDir /usr/lib64/firefox/browser {f16e8490-8bc8-4728-8b43-90a2904b2d04} 5210 true utility
+rnyhof      5455    5210  0 08:59 ?        00:02:54 /usr/lib64/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 31900 -prefMapSize 242667 -jsInitLen 234952 -parentBuildID 20240501044531 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {8db1a79b-fb72-43b5-bf0a-8ae1ffe012cb} 5210 true tab
+rnyhof      5977    3847  1 09:00 ?        00:04:18 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3835 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=41 --time-ticks-at-unix-epoch=-1714978027429309 --launch-time-ticks=789955376 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11408848637100910493,11379338191643417580,262144 --variations-seed-version=20240502-113422.320000
+rnyhof      6172    5210  0 09:04 ?        00:00:00 /usr/lib64/firefox/firefox -contentproc -parentBuildID 20240501044531 -prefsLen 36746 -prefMapSize 242667 -appDir /usr/lib64/firefox/browser {e2a2fb25-8525-408c-8fb4-405713caad43} 5210 true rdd
+rnyhof      8225    5210  0 09:49 ?        00:00:52 /usr/lib64/firefox/firefox -contentproc -childID 11 -isForBrowser -prefsLen 32224 -prefMapSize 242667 -jsInitLen 234952 -parentBuildID 20240501044531 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {6556463c-371b-4a1e-a094-bfbd022eb5cb} 5210 true tab
+rnyhof      8519    2247  0 09:52 ?        00:00:25 /usr/NX/bin/nxplayer.bin
+root        9694       2  0 10:20 ?        00:00:02 [kworker/2:0-mm_percpu_wq]
+root       10439       2  0 10:40 ?        00:00:23 [kworker/u17:1-i915_flip]
+root       11378       2  0 11:06 ?        00:00:01 [kworker/3:2-events]
+rnyhof     15807    5210  4 13:17 ?        00:03:36 /usr/lib64/firefox/firefox -contentproc -childID 13 -isForBrowser -prefsLen 32271 -prefMapSize 242667 -jsInitLen 234952 -parentBuildID 20240501044531 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {fa824cea-4341-4e15-ab99-db4ac762cb5c} 5210 true tab
+root       16187       2  0 13:25 ?        00:00:01 [kworker/u16:3-flush-259:0]
+root       16369       2  0 13:29 ?        00:00:00 [kworker/6:2-i915-unordered]
+root       17073       2  0 13:36 ?        00:00:00 [kworker/5:1-xfs-conv/nvme0n1p4]
+rnyhof     17239    3847  0 13:37 ?        00:00:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3835 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=55 --time-ticks-at-unix-epoch=-1714978027429309 --launch-time-ticks=17434143275 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11408848637100910493,11379338191643417580,262144 --variations-seed-version=20240502-113422.320000
+rnyhof     17667    3455  0 13:47 pts/1    00:00:00 /bin/ksh -l
+rnyhof     17702   17667  0 13:47 pts/1    00:00:00 esh rpm
+rnyhof     17705   17702  0 13:47 pts/1    00:00:01 ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10 root@3.73.203.141
+root       17709       2  0 13:47 ?        00:00:00 [kworker/7:1-events]
+postfix    17712    1392  0 13:47 ?        00:00:00 pickup -l -t unix -u
+rnyhof     17772    5210  0 13:48 ?        00:00:00 /usr/lib64/firefox/firefox -contentproc -childID 20 -isForBrowser -prefsLen 32271 -prefMapSize 242667 -jsInitLen 234952 -parentBuildID 20240501044531 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {d93405b8-7534-4253-9e67-71776f7d774d} 5210 true tab
+rnyhof     17816    5210  0 13:48 ?        00:00:00 /usr/lib64/firefox/firefox -contentproc -childID 21 -isForBrowser -prefsLen 32271 -prefMapSize 242667 -jsInitLen 234952 -parentBuildID 20240501044531 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {53ac4382-2a58-4cba-bdd0-d5960f2e86a5} 5210 true tab
+rnyhof     18514    5210  0 14:04 ?        00:00:00 /usr/lib64/firefox/firefox -contentproc -childID 22 -isForBrowser -prefsLen 32271 -prefMapSize 242667 -jsInitLen 234952 -parentBuildID 20240501044531 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {9c1f96a9-84bb-4c2d-bf51-f2d47b0053e8} 5210 true tab
+root       18813       2  0 14:14 ?        00:00:00 [kworker/1:0-events]
+root       18815       2  0 14:14 ?        00:00:00 [kworker/5:2-events]
+root       18816       2  0 14:14 ?        00:00:02 [kworker/4:0-events]
+root       18833       2  0 14:14 ?        00:00:00 [kworker/6:1-events]
+root       18976       2  0 14:19 ?        00:00:00 [kworker/0:0-events]
+root       19034       2  0 14:21 ?        00:00:00 [kworker/u16:0-events_unbound]
+rnyhof     19090    3455  0 14:22 pts/2    00:00:00 /bin/ksh -l
+rnyhof     19138   19090  0 14:22 pts/2    00:00:00 esh rpm
+rnyhof     19141   19138  0 14:22 pts/2    00:00:00 ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10 root@3.73.203.141
+root       19157       2  0 14:23 ?        00:00:00 [kworker/2:1-cgroup_destroy]
+root       19425       2  0 14:30 ?        00:00:00 [kworker/1:2-cgroup_destroy]
+root       19436       2  0 14:30 ?        00:00:00 [kworker/u16:2-events_unbound]
+root       19468       2  0 14:31 ?        00:00:00 [kworker/3:0]
+root       19496       2  0 14:32 ?        00:00:00 [kworker/0:1-events]
+root       19792       2  0 14:34 ?        00:00:00 [kworker/4:2-i915-unordered]
+root       19815       2  0 14:35 ?        00:00:00 [kworker/7:0-cgroup_destroy]
+rnyhof     19908    1797  1 14:36 ?        00:00:08 /usr/share/code/code rnyhof.code-workspace
+rnyhof     19913   19908  0 14:36 ?        00:00:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+rnyhof     19914   19908  0 14:36 ?        00:00:00 /usr/share/code/code --type=zygote
+rnyhof     19917   19914  0 14:36 ?        00:00:00 /usr/share/code/code --type=zygote
+rnyhof     19939   19913  1 14:36 ?        00:00:06 /usr/share/code/code --type=gpu-process --enable-crash-reporter=5c9bffa7-d7b7-44bd-b7ee-fb81ae15c5d2,no_channel --user-data-dir=/home/rnyhof/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,1024259906628403780,18116857672632414054,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+rnyhof     19947   19908  0 14:36 ?        00:00:02 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crash-reporter=5c9bffa7-d7b7-44bd-b7ee-fb81ae15c5d2,no_channel --user-data-dir=/home/rnyhof/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,1024259906628403780,18116857672632414054,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+rnyhof     19985   19917  5 14:36 ?        00:00:24 /usr/share/code/code --type=renderer --enable-crash-reporter=5c9bffa7-d7b7-44bd-b7ee-fb81ae15c5d2,no_channel --user-data-dir=/home/rnyhof/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --first-renderer-process --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1714978027429309 --launch-time-ticks=20958554507 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,1024259906628403780,18116857672632414054,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:21e8901c-1eaa-4f25-af51-1f36852f11a7
+rnyhof     20031   19908  4 14:36 ?        00:00:17 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --enable-crash-reporter=5c9bffa7-d7b7-44bd-b7ee-fb81ae15c5d2,no_channel --user-data-dir=/home/rnyhof/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,1024259906628403780,18116857672632414054,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+rnyhof     20032   19908  0 14:36 ?        00:00:00 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --enable-crash-reporter=5c9bffa7-d7b7-44bd-b7ee-fb81ae15c5d2,no_channel --user-data-dir=/home/rnyhof/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,1024259906628403780,18116857672632414054,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+rnyhof     20052   19908  1 14:36 ?        00:00:07 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --enable-crash-reporter=5c9bffa7-d7b7-44bd-b7ee-fb81ae15c5d2,no_channel --user-data-dir=/home/rnyhof/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,1024259906628403780,18116857672632414054,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+rnyhof     20569   20052 10 14:36 ?        00:00:44 /home/rnyhof/.vscode/extensions/redhat.java-1.29.0-linux-x64/jre/17.0.10-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rnyhof/.vscode/extensions/redhat.java-1.29.0-linux-x64/lombok/lombok-1.18.32.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rnyhof/.config/Code/User/workspaceStorage/79a2b42b8fbfd94b0331c12226f49c9c/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/rnyhof/.vscode/extensions/redhat.java-1.29.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.800.v20240304-1850.jar -configuration /home/rnyhof/.config/Code/User/globalStorage/redhat.java/1.29.0/config_linux -data /home/rnyhof/.config/Code/User/workspaceStorage/79a2b42b8fbfd94b0331c12226f49c9c/redhat.java/jdt_ws --stdio
+rnyhof     20576   20052  0 14:36 ?        00:00:00 /usr/share/code/code /usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=20052
+rnyhof     20664   20052  8 14:36 ?        00:00:38 /home/rnyhof/.vscode/extensions/ms-vscode.cpptools-1.20.1-linux-x64/bin/cpptools
+rnyhof     20952    1797  0 14:37 ?        00:00:01 /home/rnyhof/.vscode/extensions/ms-vscode.cpptools-1.20.1-linux-x64/bin/cpptools-srv 20664 {F7C19AC3-DB9E-4694-9582-1C4C196069E1}
+root       21376     668  0 14:38 ?        00:00:00 systemd-userwork: waiting...
+root       21463     668  0 14:38 ?        00:00:00 systemd-userwork: waiting...
+root       21773       2  0 14:39 ?        00:00:00 [kworker/1:1]
+root       22096       2  0 14:40 ?        00:00:00 [kworker/2:2]
+root       22149       2  0 14:40 ?        00:00:00 [kworker/5:0]
+root       22562       2  0 14:42 ?        00:00:00 [kworker/u16:1-flush-259:0]
+root       22922     668  0 14:43 ?        00:00:00 systemd-userwork: waiting...
+rnyhof     22944    3480  0 14:43 pts/0    00:00:00 ps -ef
