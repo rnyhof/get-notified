@@ -13,7 +13,7 @@ function up {
   [ ${SETX} -eq 0 ] || set -x
   [ ${#} -eq 1 ] || return 1
 
-  { until httping -I'appwait' -lsq -c1 -t5 -g "https://${1}/login.jsp" ; do
+  { until httping -I'appwait' -sq -c1 -t5 -g "http://${1}/login.jsp" ; do
       delay ${?}
     done
   } >/dev/null 2>&1
@@ -25,7 +25,7 @@ function down {
   [ ${SETX} -eq 0 ] || set -x
   [ ${#} -eq 1 ] || return 1
 
-  { while httping -I'appwait' -lsq -c1 -t5 -g "https://${1}/login.jsp" ; do
+  { while httping -I'appwait' -sq -c1 -t5 -g "http://${1}/login.jsp" ; do
       delay ${?}
     done
   } >/dev/null 2>&1
@@ -45,7 +45,7 @@ shift $((OPTIND-1))
 [ ${SETX} -eq 0 ] || set -x
 
 [ ${#} -eq 0 ] && {
-  echo 'Usage: appwait [-ud] [-x] <host>|ip ...' >&2
+  echo 'Usage: appwait [-ud] [-x] <host|ip> ...' >&2
   exit 1
 }
 

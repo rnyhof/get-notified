@@ -1,11 +1,6 @@
 {
   "cluster": "etms43srv",
-  "spec": "template-ec2.spec",
   "dummy": 1,
-  "vars": {
-    "jms_version": "2.18.0",
-    "etms_version": "13.8.2"
-  },
   "packages": [
     {
       "name": "corretto",
@@ -28,7 +23,6 @@
         {
           "name": "artemis",
           "version": "2.18.0",
-          "or": "%{jms_version}"
         }
       ]
     },
