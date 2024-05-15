@@ -1,0 +1,41 @@
+{
+  "cluster": "moruroa1dev",
+  "packages": [
+    {
+      "name": "corretto",
+      "version": "11.0.19"
+    },
+    {
+      "name": "tomcat",
+      "version": "9.0.85"
+    },
+    {
+      "name": "etms-datadog",
+      "version": "1.0"
+    }
+  ],
+  "roles": [
+    {
+      "role": "app",
+      "packages": [
+        {
+          "name": "etms-app-13.8.2"
+        },
+        {
+          "name": "etms-optit"
+        }
+      ]
+    },
+    {
+      "role": "dmn",
+      "packages": [
+        {
+          "name": "etms-dmn-13.8.2"
+        },
+        {
+          "name": "etms-optit"
+        }
+      ]
+    }
+  ]
+}
