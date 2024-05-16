@@ -10,8 +10,7 @@
       "version": "9.0.85"
     },
     {
-      "name": "etms-datadog",
-      "version": "1.0"
+      "name": "etms-datadog"
     }
   ],
   "roles": [

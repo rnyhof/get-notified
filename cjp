@@ -1,0 +1,72 @@
+#!/bin/ksh
+
+typeset -i SETX=0
+typeset -a JCACHE
+typeset -a PKG_RPMS
+typeset -a RLE_RPMS
+typeset -a ROLES
+
+function j0 {
+  [ ${#} -eq 1 ] || return 1
+  [ -f "${1}" ] || return 1
+
+  typeset -i i=0
+  while read JCACHE[$((i+=1))];do;:;done < "${1}"
+
+  return 0
+}
+
+function j1 {
+  [ ${#} -eq 1 ] && echo ${JCACHE[*]} | jq -r "${1}"
+}
+
+function j2 {
+  [ ${#} -eq 2 ] && echo "${1}" | jq -r "${2}"
+}
+
+function cluster_parse {
+  [ ${#} -eq 1 ] || return 1
+  [ -f "${1}" ] || {
+    echo "\"${1}\": no such file or directory" >&2
+    return 1
+  }
+
+  j0 "${1}" || return 1
+
+  CLS=$(j1 ".cluster")
+  [ -z "${CLS}" ] && {
+    echo 'missing cluster key and/or value' >&2
+    return 1
+  }
+
+  for i in {1..$(j1 '.packages|length')} ; do
+    T=$(j1 ".packages[$((i-1))]")
+    j2 "${T}" '[.name,.version]|@tsv' | read A1 A2
+    PKG_RPMS[i]="${A1}-${A2:-*}"
+  done
+echo ${#PKG_RPMS[*]} ${PKG_RPMS[*]}
+
+  for i in {1..$(j1 '.roles|length')} ; do
+    T=$(j1 ".roles[$((i-1))]")
+    j2 "${T}" '[.role]|@tsv' | read A1
+    ROLES[i]="${A1}"
+  done
+echo ${#ROLES[*]} ${ROLES[*]}
+  
+  for i in {1..$(j1 '.roles|length')} ; do
+    INS=$(j1 ".roles[$((i-1))]")
+  
+echo "${ROLES[i]}"
+    for j in {1..$(j1 "${INS}" '.packages|length')} ; do
+      T=$(j2 "${INS}" ".packages[$((j-1))]")
+      j2 "${T}" '[.name,.version]|@tsv' | read A1 A2
+echo "${A1}-${A2:-*}"
+    done
+  done
+
+  return 0
+}
+
+cluster_parse "${1}" || exit 1
+
+exit 0
