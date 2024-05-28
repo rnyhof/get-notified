@@ -1,6 +1,6 @@
 {
   "cluster": "etms43srv",
-  "dummy": 5,
+  "dummy": 8,
   "packages": [
     {
       "name": "corretto",
