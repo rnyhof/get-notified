@@ -1,6 +1,6 @@
 {
   "cluster": "moruroa1dev",
-  "version": "13.8.2",
+  "version": "13.8.3",
   "packages": [
     {
       "name": "corretto",
