@@ -1,6 +1,7 @@
 {
   "cluster": "moruroa1dev",
   "version": "13.8.3",
+  "revision": "1",
   "packages": [
     {
       "name": "corretto",
@@ -8,7 +9,7 @@
     },
     {
       "name": "tomcat",
-      "version": "9.0.85"
+      "version": ">= 9.0.85"
     },
     {
       "name": "etms-datadog"
@@ -19,7 +20,7 @@
       "role": "app",
       "packages": [
         {
-          "name": "etms-app-13.8.3"
+          "name": "etms-app-%{version}"
         },
         {
           "name": "etms-optit"
@@ -30,10 +31,7 @@
       "role": "dmn",
       "packages": [
         {
-          "name": "etms-dmn-13.8.3"
-        },
-        {
-          "name": "etms-optit"
+          "name": "etms-dmn-%{version}"
         }
       ]
     }
