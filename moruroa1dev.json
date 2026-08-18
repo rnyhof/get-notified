@@ -4,7 +4,7 @@
   "packages": [
     {
       "name": "corretto",
-      "version": "11.0.21"
+      "version": "17.0.21"
     },
     {
       "name": "tomcat",
