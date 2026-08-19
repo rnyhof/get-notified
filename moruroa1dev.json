@@ -30,7 +30,7 @@
       "role": "dmn",
       "packages": [
         {
-          "name": "etms-dmn-%{verssion}"
+          "name": "etms-dmn-%{version}"
         },
         {
           "name": "etms-optit"
