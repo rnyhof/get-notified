@@ -3,7 +3,7 @@
   "version": "13.23.0",
   "packages": [
     {
-      "name": "corretto-17.0.19"
+      "name": "corretto-17.0.18"
     },
     {
       "name": "tomcat-9.0.85"
