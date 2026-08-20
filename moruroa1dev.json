@@ -3,12 +3,10 @@
   "version": "13.23.0",
   "packages": [
     {
-      "name": "corretto",
-      "version": "17.0.21"
+      "name": "corretto-17.0.21"
     },
     {
-      "name": "tomcat",
-      "version": "9.0.85"
+      "name": "tomcat-9.0.85"
     },
     {
       "name": "etms-datadog"
